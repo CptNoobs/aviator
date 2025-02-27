@@ -1,0 +1,41 @@
+{
+  "rules": [
+    {
+      "pattern": "client/src/**/*.jsx",
+      "conventions": [
+        "Components should be in PascalCase",
+        "Each component should have its own file",
+        "Export default at the end of file"
+      ]
+    },
+    {
+      "pattern": "client/src/styles/**/*.css",
+      "conventions": [
+        "Use kebab-case for class names",
+        "Group related styles together",
+        "Comment major sections"
+      ]
+    },
+    {
+      "pattern": "client/src/utils/**/*.js",
+      "conventions": [
+        "Use camelCase for functions and variables",
+        "Export named functions",
+        "Add JSDoc comments for complex functions"
+      ]
+    },
+    {
+      "pattern": "*.md",
+      "conventions": [
+        "Use proper markdown headings",
+        "Keep changelog up to date",
+        "Document all major changes"
+      ]
+    }
+  ],
+  "ignorePatterns": [
+    "node_modules",
+    "build",
+    ".git"
+  ]
+} 
